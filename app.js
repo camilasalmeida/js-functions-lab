@@ -35,6 +35,7 @@ const isAdult = (age) =>{
     }
 }
 console.log('Exercise 2 Result:', isAdult(21));
+//exercise completed using the Arrow Function Expression.
 */
 
 /*
@@ -56,6 +57,7 @@ return vowel.includes(character);
 }
 
 console.log('Exercise 3 Result:', isCharAVowel("a"));
+//exercise completed using the Arrow Function Expression.
 */
 
 /*
@@ -74,6 +76,7 @@ const generateEmail = (name, domain) => {
 }
 
 console.log('Exercise 4 Result:', generateEmail("johnsmith", "example.com"));
+//exercise completed using the Arrow Function Expression.
 */
 
 /*
@@ -98,6 +101,7 @@ const greetUser = (name, timeOfDay) => {
 }
 
 console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
+//exercise completed using the Arrow Function Expression.
 */
 
 /*
@@ -109,7 +113,6 @@ and return the largest among them.
 Example: maxOfThree(17, 4, 9) should return 17.
 
 Complete the exercise in the space below:
-*/
 
 const maxOfThree = (num1, num2, num3) => {
     if (num1 >= num2 && num1>= num3) {
@@ -122,3 +125,25 @@ const maxOfThree = (num1, num2, num3) => {
 }
 
 console.log('Exercise 6 Result:', maxOfThree(9, 0, 21));
+//exercise completed using the Arrow Function Expression.
+*/
+
+/*
+Exercise 7: calculateTip() 
+
+Create a function called calculateTip. It should take two arguments: 
+the bill amount and the tip percentage (as a whole number). 
+The function should return the amount of the tip.
+
+Example: calculateTip(50, 20%) should return 10.
+
+Complete the exercise in the space below:
+
+function calculateTip(billAmount, tipPorcentagem) {
+        const tipTotal = (billAmount * tipPorcentagem) / 100;
+return tipTotal;
+}
+
+console.log('Exercise 7 Result:', calculateTip(50, 20));
+//exercise completed using the Declaration Function Expression.
+*/
